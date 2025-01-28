@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 28cab86d-eaed-4821-8d07-2cec38150b21)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 67.31 54.61) (size 27.94 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d269233a-2d56-437b-a4cd-015e3b644e96)
+    (property "Sheetname" "CPU" (at 67.31 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU_sch.kicad_sch" (at 67.31 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MCY7880_computer"
+        (path "/28cab86d-eaed-4821-8d07-2cec38150b21" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
